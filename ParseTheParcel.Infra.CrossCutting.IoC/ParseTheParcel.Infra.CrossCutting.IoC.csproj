@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Roger.ParseTheParcel.Infra.CrossCutting.IoC</AssemblyName>
+    <RootNamespace>Roger.ParseTheParcel.Infra.CrossCutting.IoC</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework\Framework.DomainDrivenDesign.Web\Framework.DomainDrivenDesign.Web.csproj" />
+    <ProjectReference Include="..\ParseTheParcel.Application\ParseTheParcel.Application.csproj" />
+    <ProjectReference Include="..\ParseTheParcel.Domain\ParseTheParcel.Domain.csproj" />
+    <ProjectReference Include="..\ParseTheParcel.Infra.Data\ParseTheParcel.Infra.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\..\..\..\..\..\Users\fabio.naspolini\.nuget\packages\automapper\6.2.2\lib\netstandard1.3\AutoMapper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

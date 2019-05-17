@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Roger.ParseTheParcel.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Roger.ParseTheParcel.Api.Controllers.ShippingController">
+            <inheritdoc />
+        </member>
+        <member name="M:Roger.ParseTheParcel.Api.Controllers.ShippingController.#ctor(Roger.ParseTheParcel.Application.Interface.IShippingAppService)">
+            <inheritdoc />
+        </member>
+        <member name="M:Roger.ParseTheParcel.Api.Controllers.ShippingController.Calculate(Roger.ParseTheParcel.Application.Objects.Shipping.CostPackageRequest)">
+            <summary>
+            Returns the cost and type of package required
+            </summary>
+            <param name="costPackageRequest">Dimensions and weight of the package.
+            <li>Dimensions: length x breadth x height</li>
+            <li>weight: weight of the package</li>
+            </param>
+            <returns>The object that represents the cost return</returns>
+        </member>
+        <member name="T:Roger.ParseTheParcel.Api.Program">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Roger.ParseTheParcel.Api.Program.Main(System.String[])">
+            <summary>
+            </summary>
+            s
+        </member>
+        <member name="M:Roger.ParseTheParcel.Api.Program.BuildWebHost(System.String[])">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Roger.ParseTheParcel.Api.Startup">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:Roger.ParseTheParcel.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:Roger.ParseTheParcel.Api.Startup.Configuration">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:Roger.ParseTheParcel.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:Roger.ParseTheParcel.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+             <summary>
+            
+             </summary>
+        </member>
+    </members>
+</doc>

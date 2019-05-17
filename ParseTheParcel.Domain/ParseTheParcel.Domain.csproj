@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Roger.ParseTheParcel.Domain</AssemblyName>
+    <RootNamespace>Roger.ParseTheParcel.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework\Framework.DomainDrivenDesign\Framework.DomainDrivenDesign.csproj" />
+    <ProjectReference Include="..\Framework\Framework.Utils\Framework.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
